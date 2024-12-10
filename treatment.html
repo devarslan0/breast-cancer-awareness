@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Treatment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Breast Cancer Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptoms.html">Symptoms</a></li>
+                <li><a href="treatment.html">Treatment</a></li>
+                <li><a href="prevention.html">Prevention</a></li>
+                <li><a href="post-treatment.html">Post-Treatment Care</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="treatment">
+        <h2>Treatment Options</h2>
+        <p>Treatment for breast cancer depends on the stage and type of cancer, and may include the following options:</p>
+        <ul>
+            <li>Surgery to remove the tumor or the whole breast (mastectomy)</li>
+            <li>Chemotherapy to kill cancer cells or shrink the tumor</li>
+            <li>Radiation therapy to target remaining cancer cells</li>
+            <### `styles.css` - Styling
+```css
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #056363;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h2 {
+    color: #056363;
+}
+
+.content-box p {
+    font-size: 1em;
+    color: #555;
+}
+
+.learn-more a {
+    color: #056363;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.learn-more a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #056363;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content-box {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
